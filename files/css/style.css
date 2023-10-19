@@ -6,6 +6,13 @@
 }
 .container {
   background-color: #e9b824;
-  padding: 1em 2em;
   max-width: 100%;
+}
+header {
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+main {
+  padding: 0em 2em;
 }
