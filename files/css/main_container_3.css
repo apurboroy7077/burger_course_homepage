@@ -1,0 +1,53 @@
+.main_container_3 {
+  margin-top: 5em;
+}
+.main_container_3_1 {
+  max-width: 10em;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+  color: #219c90;
+  margin: 0 auto;
+}
+.main_container_3_2 {
+  background-color: #ee9322;
+  max-width: 70em;
+  margin: 0 auto;
+  margin-top: 3em;
+  padding: 2em;
+  border-radius: 5px;
+}
+.main_container_3_2_1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0.2em;
+}
+.main_container_3_2_2 {
+  font-weight: 550;
+  color: rgb(44, 42, 42);
+}
+.main_container_3_2_3 {
+  max-width: 60em;
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.main_container_3_2_3_1_1 {
+  list-style: none;
+  min-width: 15em;
+}
+.main_container_3_2_3_1_1_1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.2em;
+}
+.burger_list_style {
+  width: 2em;
+  margin-right: 0.3em;
+}
+.tick_mark_list_style {
+  width: 1.7em;
+  margin-right: 0.3em;
+}

@@ -1,0 +1,61 @@
+.main_container_1 {
+  padding-top: 3em;
+}
+.main_container_1_sub_div {
+  max-width: 40em;
+  margin: 0 auto;
+}
+.main_container_1_1 {
+  text-align: center;
+  font-size: 3em;
+  font-family: arial;
+  font-weight: 900;
+  color: #219c90;
+}
+.main_container_1_2 {
+  margin-top: 1.5em;
+  text-align: center;
+  font-weight: 550;
+  color: rgb(35, 34, 34);
+}
+.main_container_1_3 {
+  margin-top: 3em;
+}
+.join_now_button {
+  width: fit-content;
+  background-color: #d83f31;
+  margin: 0px auto;
+  padding: 0.7em 4em;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.join_now_button:hover {
+  box-shadow: 5px 5px 5px black;
+}
+.join_now_button:active {
+  transform: scale(0.9);
+}
+.join_now_link {
+  text-decoration: none;
+}
+.main_container_1_4 {
+  margin-top: 7em;
+  font-size: 0.9em;
+  font-weight: 545;
+}
+.main_container_1_5 {
+  font-size: 0.9em;
+  font-weight: 545;
+  margin-top: 1.5em;
+}
+.main_container_1_6 {
+  color: green;
+  font-weight: bold;
+  margin-top: 1.5em;
+}
+.main_container_1_7 {
+  font-size: 0.9em;
+  font-weight: 545;
+  margin-top: 1.5em;
+}

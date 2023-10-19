@@ -1,0 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: arial;
+}
+.container {
+  background-color: #e9b824;
+  padding: 1em 2em;
+  max-width: 100%;
+}

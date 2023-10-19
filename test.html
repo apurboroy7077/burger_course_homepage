@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Callout Box</title>
+    <style>
+      body,
+      h1,
+      p {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Style the callout box */
+      .callout-box {
+        background-color: #f2f2f2;
+        border: 2px solid #333;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 20px;
+        max-width: 400px; /* Adjust the width as needed */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+      }
+
+      /* Style the text inside the callout box */
+      .callout-box p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+      }
+      .callout-box {
+        position: relative; /* Needed for absolute positioning of the arrow */
+        background-color: #f2f2f2;
+        border: 2px solid #333;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 20px;
+        max-width: 400px; /* Adjust the width as needed */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+      }
+
+      /* Style the arrow */
+      .callout-box::before {
+        content: "";
+        position: absolute;
+        top: 20px; /* Adjust this to control the distance between the box and the arrow */
+        left: 50%; /* Position the arrow in the center of the box */
+        margin-left: -10px; /* Half the width of the arrow */
+        border-width: 10px 10px 0; /* Create a triangle shape */
+        border-style: solid;
+        border-color: #333 transparent transparent transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="callout-box">
+      <p>This is a callout box. You can put important information here.</p>
+    </div>
+  </body>
+</html>
