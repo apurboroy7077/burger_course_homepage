@@ -7,4 +7,4 @@ let function_of_join_button = () => {
     pop_up_box.classList.toggle("active");
   });
 };
-function_of_join_button();
+export default function_of_join_button;
