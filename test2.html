@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hashchange Example</title>
+  </head>
+  <body>
+    <h1>Hashchange Example</h1>
+    <p>Click <a href="#/test">this link</a></p>
+
+    <script>
+      // Function to handle the "hashchange" event
+      function handleHashChange() {
+        if (window.location.hash === "/#/test") {
+          console.log("Hello, World!");
+        }
+      }
+
+      // Add an event listener for the "hashchange" event
+      window.addEventListener("hashchange", () => {
+        console.log("Biriyani");
+      });
+    </script>
+  </body>
+</html>

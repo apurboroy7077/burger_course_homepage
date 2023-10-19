@@ -54,6 +54,22 @@ header {
   opacity: 0;
   pointer-events: none;
 }
+.hover_effect {
+  position: relative;
+}
+.hover_effect::after {
+  content: "";
+  background-color: rgb(65, 63, 63);
+  height: 3px;
+  width: 0%;
+  position: absolute;
+  left: 0px;
+  bottom: -5px;
+  transition: width 1s;
+}
+.hover_effect:hover::after {
+  width: 100%;
+}
 /* @media only screen and (max-width: 830px) {
   .header_row_1_1 {
     width: 5em;

@@ -1,0 +1,22 @@
+.privacy_policy {
+  max-width: 100%;
+  margin-top: 3em;
+}
+.privacy_policy_1_1 {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+}
+.privacy_policy_2 {
+  margin: 0 auto;
+  max-width: 75em;
+  margin-top: 5em;
+}
+.privacy_policy_2_1 {
+  margin-bottom: 3em;
+}
+.privacy_policy_2_1_1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
